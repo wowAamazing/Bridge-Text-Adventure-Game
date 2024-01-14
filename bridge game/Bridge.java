@@ -8,7 +8,7 @@ public class Bridge
   
   public Bridge()
   {
-    max = 1 + (int)(Math.random() * 5);
+    max = 1 + (int)(Math.random() * 6);
   }
   
   public boolean crossChoice()
@@ -32,7 +32,7 @@ public class Bridge
   {
     boolean brak = false;
     
-    if (c > max)
+    if (c >= max)
     {
       brak = true;
     }
